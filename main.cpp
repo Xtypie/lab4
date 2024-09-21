@@ -3,7 +3,9 @@ using namespace std;
 
 
 int main()
+
 {   // 1 пункт
+
     int a, b, c;
 
     cin >> a >> b >> c;
@@ -21,6 +23,7 @@ int main()
     }
 
     // 2 пункт
+
     int n;
     cin >> n;
     if ((n > 0) & (n <= 12))
@@ -71,6 +74,7 @@ int main()
     }
 
     // 3 пункт
+
     int x;
     cin >> x;
     switch(x)
@@ -84,7 +88,7 @@ int main()
         default:
             cout << "X must be -1 or 1" << endl;
             break;
-    }
+    } // выбрал switch-case, т. к. на мой взгляд на данную задачу уходит менше времени и строчек
 
 
 
